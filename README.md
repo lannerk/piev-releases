@@ -193,8 +193,13 @@ minisign -Vm .\PiEv_0.1.0_x64-setup.exe -x .\PiEv_0.1.0_x64-setup.exe.sig -p .\k
 ## 反馈
 
 - bug、建议：开 [Issue](https://github.com/lannerk/piev-releases/issues)，附版本（关于页）和复现步骤；**别贴 key、项目内容或含本机路径的截图**。应用内「报告问题」会自动脱敏后投到这里。
-- 安全问题请不要开公开 Issue，发到仓库 About 里留的邮箱。
+- 安全问题请不要开公开 Issue，发邮件到 lannerk@qq.com。
 
 ## 许可
 
-PiEv 按 [EULA](EULA.md) 分发，可免费下载使用，不包含源码授权。Pi 本身是其作者的开源项目，许可见 Pi 仓库。
+PiEv 是闭源软件，按 [EULA](EULA.md) 授权使用：
+
+- **预览版（1.0 之前）**：免费评估，**有使用期限**，到期后请更新到新的预览版（设置 › 更新）。到期日在关于页和启动提示里显示。
+- **正式版（1.0 起）**：订阅付费使用。订阅方式、价格与试用安排在正式版发布前公布。
+- 不授予源码；禁止反编译、再分发、转售。
+- PiEv 基于 [Pi](https://github.com/earendil-works/pi)（MIT）构建，非 Pi 官方项目；Pi 与其他第三方组件的许可证见随包分发的 `THIRD-PARTY-NOTICES`。
